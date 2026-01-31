@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Para mi Sara! 🦆</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Audio de fondo -->
+    <audio id="background-music" loop>
+        <source src="tu-cancion.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Área del juego -->
+    <div id="game-area">
+        <h1>¡Atrapa los patos! 🦆</h1>
+        <p>Debes atrapar 10 patos para ver la sorpresa</p>
+        
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        
+        <div class="counter">Patos atrapados: <span id="score">0</span>/10</div>
+        
+        <div id="game-container"></div>
+    </div>
+
+    <!-- Carta de San Valentín (oculta al inicio) -->
+    <div id="card" class="hidden">
+        <div class="card-content">
+            <h2>¡Felicidades! 💛</h2>
+            <div class="message">
+                <p>Has atrapado todos los patos...</p>
+                <p>Y ahora quiero decirte algo especial:</p>
+                <br>
+                <p class="love-message">
+                    Así como atrapaste cada uno de estos patos,
+                    tú has atrapado mi corazón de una manera única y especial.
+                </p>
+                <br>
+                <p class="love-message">
+                    Cada momento contigo es tan valioso como cada pato que atrapaste,
+                    y quiero seguir coleccionando momentos a tu lado.
+                </p>
+                <br>
+                <p class="signature">¡Feliz San Valentín mi Sara! 💛🦆</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
